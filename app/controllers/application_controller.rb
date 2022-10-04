@@ -15,6 +15,7 @@ class ApplicationController < Sinatra::Base
 
   post "/poems" do 
     #Add a poem
+    #Checked: It works!!!
     poem = Poem.create(
       poem: params[:poem],
       user_id: params[:user_id],
@@ -25,6 +26,7 @@ class ApplicationController < Sinatra::Base
 
   patch "/poems/:id" do
     #Change a poem
+    #Checked: It works!!!!!!
     poem = Poem.find(params[:id])
     poem.update(
       poem: params[:poem],
@@ -32,8 +34,9 @@ class ApplicationController < Sinatra::Base
     poem.to_json
   end
 
-  delete "/poem/:id" do
+  delete "/poems/:id" do
     #delete a poem
+    #Checked : it works!!!
     poem = Poem.find(params[:id])
     poem.destroy
     poem.to_json
@@ -42,22 +45,25 @@ class ApplicationController < Sinatra::Base
 
   #User routes
 
-  get "/user" do
+  get "/users" do
     #Get all users
+    #Checked: It works!!!!
     users = User.all
     users.to_json
   end
 
-  post "/user" do 
+  post "/users" do 
     #Add a user
+    #Checked: It works!!!!
     user = User.create(
       name:(params[:name])
     )
     user.to_json
   end
 
-  delete "/user/:id" do
+  delete "/users/:id" do
     #remove a user
+    #Checked: It works!!!!!
     user = User.find(params[:id])
     user.destroy
     user.to_json
@@ -68,14 +74,21 @@ class ApplicationController < Sinatra::Base
 
   get "/lyrics" do 
     #get a random lyric
+    #Checked: It works!!!!!!
     lyrics = Lyric.all
     rlyric = lyrics.sample
     rlyric.to_json
   end
 
 
-  post "/lyrics" do 
+  post "/lyrics" do
     #create a new lyrics
+    #Checked: It works!!!!!
+    lyrics = Lyric.create(
+      quote:(params[:quote]),
+      song:(params[:song]),
+      album:(params[:album])
+    )
   end
  
 
