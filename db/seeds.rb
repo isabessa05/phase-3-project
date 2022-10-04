@@ -54,6 +54,20 @@ Poem.create(poem: "I saw the signs and I ignored it, Rose-colored glasses all di
 Poem.create(poem: "Wind in my hair, you were there, you remember it all, Down the stairs, you were there, you remember it all, It was rare, I was there, I remember it all too well", user_id: 4, lyric_id:13)
 Poem.create(poem: "Your sweet disposition, And my wide-eyed gaze, We're singing in the car, getting lost upstate, Autumn leaves falling down like pieces into place, And I can picture it after all these days", user_id: 5, lyric_id: 11)
 Poem.create(poem: "I saw the signs and I ignored it, Rose-colored glasses all distorted, Set fire to my purpose, And I let it burn", user_id: 2 lyric_id:2)
+Poem.create(poem: "So it's gonna be forever, Or it's gonna go down in flames, You can tell me when it’s over, If the high was worth the pain, Got a long list of ex-lovers, They’ll tell you I’m insane, ‘Cause you know I love the players, And you love the game", user_id: 3, lyric_id:1)
+Poem.create(poem: "I'm slippin’ into the lava, And I’m try to keep from goin under, who turned the temperature hotter? ‘Cause I’m burnin’ up, burnin’ up, For you baby", user_id: 1, lyric_id:2)
+Poem.create(poem: "I saw the signs and I ignored it, Rose-colored glasses all distorted, Set fire to my purpose, And I let it burn”, user_id: 2 lyric_id:2)
+Poem.create(poem: “In this world, it’s just us, You know it’s not the same as it was”, user_id: 6, lyric_id:3)
+Poem.create(poem: “It’s just too little too late, A little too long, And I can’t wait, But you know all the right things to say, You know it’s just too little too late”, user_id: 7, lyric_id:4)
+Poem.create(poem: “When the sun shines, we’ll shine together, Told you I’ll be here forever, Said I’ll always be your friend, Took an oath, I’ma stick it out ’til the end, Now that it’s raining more than ever, Know that we’ll still have each other, You can stand under my umbrella”, user_id: 8, lyric_id: 5)
+Poem.create(poem: “Just stop your crying, Have the time of your life, Breaking through the atmosphere, And things are pretty good from here, Remember everything will be alright, We can meet again somewhere, Somewhere far away from here”, user_id: 6, lyric_id:6)
+Poem.create(poem: “Not really sure how to feel about it, Something in the way you move, Makes me feel like I can’t live without you, It takes me all the way, I want you to stay”, user_id: 8, lyric_id:7)
+Poem.create(poem: “Oh, and baby I’m fist fighting with fire, Just to get close to you, Can we burn something, babe?, And I run for miles just to get a taste, Must be love on the brain”, user_id: 8, lyric_id:8)
+Poem.create(poem: “Don’t call me baby again, You got your reasons, I know that you’re tryna be friends, I know you mean it, Don’t call me baby again, It’s hard for me to go home, To be so lonely”, user_id: 6, lyric_id:9)
+Poem.create(poem: “We’re not who we used to be, We’re just two ghosts standing in the place of you and me, Trying to remember how it feels to have a heartbeat”, user_id: 6, lyric_id:10)
+Poem.create(poem: “Your sweet disposition, And my wide-eyed gaze, We’re singing in the car, getting lost upstate, Autumn leaves falling down like pieces into place, And I can picture it after all these days”, user_id: 5, lyric_id: 11)
+Poem.create(poem: “Find light in the beautiful sea, I choose to be happy, You and I, you and I, we’re like diamonds in the sky, You’re a shooting star I see, a vision of ecstasy, When you hold me, I’m alive, we’re like diamonds in the sky”, user_id: 8, lyric_id:12)
+Poem.create(poem: “Wind in my hair, you were there, you remember it all, Down the stairs, you were there, you remember it all, It was rare, I was there, I remember it all too well”, user_id: 4, lyric_id:13)
 
 #Create users
 
