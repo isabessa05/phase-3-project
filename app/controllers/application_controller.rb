@@ -8,7 +8,7 @@ class ApplicationController < Sinatra::Base
     poems.to_json
   end
 
-  get "/poems/:user_id" do
+  get "/poems/user/:user_id" do
     poems = Poem.where(user_id: params[:user_id])
     poems.to_json  
   end
@@ -90,6 +90,5 @@ class ApplicationController < Sinatra::Base
       album:(params[:album])
     )
   end
- 
 
 end
